@@ -4,7 +4,7 @@ import bannerTwo from "../../assets/banner-2.webp";
 import bannerThree from "../../assets/banner-3.webp";
 import {
   Airplay,
-  BabyIcon,
+  ShoppingBag,
   ChevronLeftIcon,
   ChevronRightIcon,
   CloudLightning,
@@ -13,7 +13,7 @@ import {
   Shirt,
   ShirtIcon,
   ShoppingBasket,
-  UmbrellaIcon,
+  CircuitBoard,
   WashingMachine,
   WatchIcon,
 } from "lucide-react";
@@ -34,9 +34,9 @@ import { getFeatureImages } from "@/store/common-slice";
 const categoriesWithIcon = [
   { id: "men", label: "Men", icon: ShirtIcon },
   { id: "women", label: "Women", icon: CloudLightning },
-  { id: "kids", label: "Kids", icon: BabyIcon },
+  { id: "kids", label: "Grocery", icon: ShoppingBag },
   { id: "accessories", label: "Accessories", icon: WatchIcon },
-  { id: "footwear", label: "Footwear", icon: UmbrellaIcon },
+  { id: "footwear", label: "Electronics", icon: CircuitBoard },
 ];
 
 const brandsWithIcon = [

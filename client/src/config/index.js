@@ -62,7 +62,7 @@ export const addProductFormElements = [
       { id: "women", label: "Women" },
       { id: "kids", label: "Grocery" },
       { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "footwear", label: "Electronics" },
     ],
   },
   {
@@ -124,12 +124,12 @@ export const shoppingViewHeaderMenuItems = [
   },
   {
     id: "kids",
-    label: "Kids",
+    label: "Grocery",
     path: "/shop/listing",
   },
   {
     id: "footwear",
-    label: "Footwear",
+    label: "Electronics",
     path: "/shop/listing",
   },
   {
@@ -147,9 +147,9 @@ export const shoppingViewHeaderMenuItems = [
 export const categoryOptionsMap = {
   men: "Men",
   women: "Women",
-  kids: "Kids",
+  kids: "Grocery",
   accessories: "Accessories",
-  footwear: "Footwear",
+  footwear: "Electronics",
 };
 
 export const brandOptionsMap = {
